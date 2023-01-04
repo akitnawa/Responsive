@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #e6eff6;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Karla", sans-serif;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.box {
+  width: 50%;
+  height: 500px;
+  margin: 0px !important;
+  padding: 0px !important;
+
+}
+
+.first_content {
+  background-color: white;
+  height: 0%;
+  padding: 6%;
+  padding-bottom: 2% !important;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.first_content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+}
+
+.first_content h4 {
+  font-size: 18px;
+  font-weight: 700 !important;
+  color: hsl(71, 73%, 54%);
+}
+
+.first_content p {
+  color: hsl(218, 22%, 67%);
+  font-size: 16px;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content_two {
+  background-color: hsl(179, 62%, 43%);
+  height: 50%;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.second_content {
+  background-color: hsl(179, 62%, 43%);
+
+  border-bottom-left-radius: 10px;
+  padding: 5%;
+  color: hsl(204, 43%, 93%);
+}
+
+.second_content h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  margin-top: 1%;
+}
+
+.second_content span {
+  font-size: 28px;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+}
+
+.second_content p {
+  color: hsl(204, 43%, 93%);
+  font-size: 14px;
+}
+
+.pp {
+  font-size: 16px !important;
+  align-items: center;
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 0%;
+  color: hsl(204, 43%, 93%);
+}
+
+.sign_up {
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+  height: 40px;
+  margin-top: 2%;
+  background-color: #bfdf32;
+  color: hsl(204, 43%, 93%);
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 1px 2px #4bae78;
+}
+
+.third_content {
+  background-color: #4abebd;
+  border-bottom-right-radius: 10px;
+  padding: 5%;
+  color: hsl(204, 43%, 93%);
+}
+.third_content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  margin: 0%;
+}
+.third_content p {
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    .third_content {
+        border-bottom-right-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+    }
+    .box {
+        width: 90%;
+      }
+
+      .first_content {
+        
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+      .third_content p {
+        font-size: 14px;
+    }
+    
+    
+
+    
+
+    
+
+  }
